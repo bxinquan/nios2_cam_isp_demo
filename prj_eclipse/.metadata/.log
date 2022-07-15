@@ -1,0 +1,1854 @@
+!SESSION 2021-04-17 17:25:45.540 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-17 17:26:32.814
+!MESSAGE Indexed 'nios2_camera_sdram_lcd_bsp' (78 sources, 57 headers) in 0.50 sec: 926 declarations; 2,211 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5.85%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-17 17:26:38.975
+!MESSAGE Indexed 'nios2_camera_sdram_lcd' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2021-04-17 17:27:50.318
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:793)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete 'C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1945)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile.
+Contains: Could not delete 'C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-04-17 17:27:50.321
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-04-17 17:27:50.321
+!MESSAGE Could not delete 'C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1945)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2021-04-17 17:27:50.321
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-04-17 17:27:50.321
+!MESSAGE Could not delete: C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-04-17 17:27:50.321
+!MESSAGE Could not delete 'C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp'.
+
+!ENTRY org.eclipse.core.resources 4 273 2021-04-17 17:27:50.323
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-04-17 17:27:50.323
+!MESSAGE Could not delete 'C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:384)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1945)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile.
+!SUBENTRY 2 org.eclipse.core.filesystem 4 273 2021-04-17 17:27:50.323
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2021-04-17 17:27:50.323
+!MESSAGE Could not delete: C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp\Makefile.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-04-17 17:27:50.323
+!MESSAGE Could not delete 'C:\work\fpga\nios2_camera_sdram_lcd\prj_qsys\software\nios2_camera_sdram_lcd_bsp'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-17 17:27:56.006
+!MESSAGE Indexed 'nios2_camera_sdram_lcd' (0 sources, 13 headers) in 0.03 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-17 17:29:34.167
+!MESSAGE Indexed 'nios2_camera_sdram_lcd_bsp' (78 sources, 57 headers) in 0.31 sec: 926 declarations; 2,211 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5.85%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-17 17:29:40.224
+!MESSAGE Indexed 'nios2_camera_sdram_lcd' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:31:16.686
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:31:19.094
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:32:02.522
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:32:04.792
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:34:39.231
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:34:41.611
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:35:17.093
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:35:17.804
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:35:20.099
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:38:08.129
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:38:08.833
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:38:11.220
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:38:39.371
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:38:40.051
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:38:42.402
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:39:06.167
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:39:06.874
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:39:09.231
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:39:46.545
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618650753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:39:48.899
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618650753 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 17:55:42.437
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618653054", expected: "1618650753".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 17:55:42.439
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618653054", expected: "1618650753".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:56:11.610
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:56:13.936
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:57:20.601
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:57:21.291
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:57:23.613
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:57:42.027
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:57:43.230
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:57:45.622
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:58:27.522
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 17:58:29.882
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:00:05.481
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:00:06.220
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:00:08.481
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:00:53.396
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:00:54.136
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:00:56.471
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:02:25.533
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:02:26.240
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:02:28.588
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-17 18:46:53.562 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:48:00.944
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:48:03.327
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-17 18:48:38.048
+!MESSAGE Indexed 'nios2_camera_sdram_lcd' (1 sources, 70 headers) in 0.64 sec: 2,401 declarations; 2,446 references; 0 unresolved inclusions; 2 syntax errors; 6 unresolved names (0.12%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:48:49.485
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:48:50.170
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:48:52.494
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:54:03.708
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:54:06.024
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:54:33.202
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:54:33.884
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 18:54:36.185
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:02:40.024
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:02:42.378
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:08:25.898
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618653054]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:08:28.192
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618653054 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 19:15:51.542
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618657933", expected: "1618653054".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 19:15:51.545
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618657933", expected: "1618653054".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:16:20.896
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618657933]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:16:23.234
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618657933 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 19:21:03.689
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618658242", expected: "1618657933".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 19:21:03.690
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618658242", expected: "1618657933".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:21:23.332
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:21:25.765
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:22:17.551
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:22:19.818
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:23:27.964
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 19:23:30.241
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-17 20:49:54.507 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:50:33.215
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:50:35.657
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:52:48.626
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:52:49.324
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:52:51.711
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:53:26.925
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:53:29.306
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:54:42.420
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:54:44.773
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:58:10.753
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618658242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 20:58:13.164
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618658242 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:17:34.517
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618665265", expected: "1618658242".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:17:34.521
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618665265", expected: "1618658242".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:18:05.115
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618665265]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:18:07.456
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618665265 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:23:42.606
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001238 --id=0x0 --timestamp=1618665265]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:23:45.012
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001238 --id=0x0 --timestamp=1618665265 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:28:32.781
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0xd9800c04", expected: "0x0". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:28:32.782
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0xd9800c04", expected: "0x0". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-04-17 21:28:45.793
+!MESSAGE An internal error occurred during: "Nios II BSP Editor (nios2_camera_sdram_lcd)".
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.sbtgui.core.commandline.Executor.exec(Executor.java:72)
+	at com.altera.sbtgui.core.commandline.ExecutableJob.run(ExecutableJob.java:27)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:29:14.105
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001038 --id=0x0 --timestamp=1618665928]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:29:16.413
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001038 --id=0x0 --timestamp=1618665928 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:29:48.247
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001038 --id=0x0 --timestamp=1618665928]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:29:50.666
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001038 --id=0x0 --timestamp=1618665928 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:30:48.793
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001038 --id=0x0 --timestamp=1618665928]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:30:51.170
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001038 --id=0x0 --timestamp=1618665928 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:35:41.147
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "0", expected: "1618665928".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:35:41.150
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "0", expected: "1618665928".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:36:23.217
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618666313]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:36:25.645
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618666313 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:36:55.918
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:36:56.599
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618666313]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:36:58.979
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618666313 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:42:04.396
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618666313]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:42:06.704
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618666313 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:49:50.139
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618667005", expected: "1618666313".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 21:49:50.141
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618667005", expected: "1618666313".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:50:17.344
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618667005]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 21:50:19.708
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618667005 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:01:04.022
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618667739", expected: "1618667005".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:01:04.024
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618667739", expected: "1618667005".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2021-04-17 22:02:51.817 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-17 22:03:04.537
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:03:42.726
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618667739]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:03:45.102
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618667739 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:10:05.807
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618668297", expected: "1618667739".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:10:05.813
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618668297", expected: "1618667739".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:10:35.660
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618668297]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:10:38.023
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618668297 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:16:40.101
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618668689", expected: "1618668297".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:16:40.103
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618668689", expected: "1618668297".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:17:09.041
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618668689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:17:11.486
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618668689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:21:57.894
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618669076", expected: "1618668689".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:21:57.896
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618669076", expected: "1618668689".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:22:57.967
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618669076]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:23:00.356
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618669076 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:29:25.606
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618669502", expected: "1618669076".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 22:29:25.607
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618669502", expected: "1618669076".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:30:03.126
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618669502]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:30:05.585
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618669502 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:48:38.041
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618669502]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:48:40.403
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618669502 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:49:35.258
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618669502]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:49:37.612
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618669502 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:59:19.650
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618669502]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 22:59:22.058
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618669502 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:08:20.094
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618669502]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:08:22.505
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618669502 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 23:16:44.912
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618672392", expected: "1618669502".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-17 23:16:44.913
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618672392", expected: "1618669502".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:17:10.008
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:17:12.365
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:18:06.739
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:18:09.133
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:18:38.903
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:18:41.301
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-17 23:21:48.537 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:23:40.690
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:23:43.036
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:24:06.380
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:24:07.569
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:24:09.889
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:24:40.507
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:24:42.878
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:26:49.429
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:26:51.763
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:27:10.231
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:27:10.931
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618672392]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-17 23:27:13.282
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618672392 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-18 13:55:23.852 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 13:59:21.555
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001248 --id=0x0 --timestamp=1618725309]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 13:59:25.790
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001248 --id=0x0 --timestamp=1618725309 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-18 15:57:40.477
+!MESSAGE Indexed 'nios2_camera_sdram_lcd' (1 sources, 71 headers) in 0.46 sec: 2,402 declarations; 2,467 references; 0 unresolved inclusions; 2 syntax errors; 6 unresolved names (0.12%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-18 15:58:38.592
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0x1a", expected: "0x0". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-18 15:58:38.593
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0x1a", expected: "0x0". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 15:59:00.794
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 15:59:03.130
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:00:42.896
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:00:45.233
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:01:24.570
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:01:25.239
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:01:27.571
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:03:20.549
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:03:21.259
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:03:23.625
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:06:47.192
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:06:49.570
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:08:38.534
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:08:40.901
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:09:15.018
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:09:15.743
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:09:18.005
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:11:12.165
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:11:12.836
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:11:15.211
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:11:51.913
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:11:52.590
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:11:54.943
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:12:24.926
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:12:27.282
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:13:47.732
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:13:48.408
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:13:50.751
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:14:26.847
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:14:27.523
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:14:29.890
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:14:47.414
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:14:48.103
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:14:50.466
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:24:01.419
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:24:02.100
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:24:04.511
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:24:43.483
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:24:44.292
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:24:46.637
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:25:53.480
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:25:54.274
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:25:56.702
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-18 16:32:42.396 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-18 16:32:44.388
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:33:08.441
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:33:10.785
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:34:51.635
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:34:52.338
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:34:54.712
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:35:49.489
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:35:50.180
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:35:52.588
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:37:57.455
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:37:58.142
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:38:00.482
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:38:18.122
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:38:19.313
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618731555]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:38:21.779
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618731555 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-18 16:45:25.138
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618735319", expected: "1618731555".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-18 16:45:25.141
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618735319", expected: "1618731555".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:45:49.995
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:45:52.389
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:48:33.031
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:48:33.729
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:48:36.105
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:49:38.968
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:49:39.650
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 16:49:41.990
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 17:47:18.023
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 17:47:20.519
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-18 17:56:24.924 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:30:21.882
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:30:24.245
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:31:46.494
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:31:47.201
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:31:49.517
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:33:26.803
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:33:29.132
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:45:35.433
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:45:36.131
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:45:38.430
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:46:56.347
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:46:57.026
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:46:59.362
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:47:24.248
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:47:24.941
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:47:27.234
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:47:48.868
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:47:50.056
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618735319]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:47:52.392
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618735319 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-18 19:51:13.355 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:55:32.262
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:55:34.681
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:56:25.330
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:56:26.061
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:56:28.492
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:56:51.711
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:56:52.411
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 19:56:54.836
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:05:41.931
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:05:42.618
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:05:44.954
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:06:20.289
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:06:21.018
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:06:23.373
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:08:29.161
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:08:29.854
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:08:32.222
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:08:55.024
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:08:55.715
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:08:58.013
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:10:01.838
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:10:02.542
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:10:04.893
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:12:48.906
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 20:12:51.290
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-04-18 20:48:52.678 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:13:46.699
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:13:49.075
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:22:18.290
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:22:19.033
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618746689]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:22:21.425
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618746689 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-18 21:33:48.696
+!MESSAGE Indexed 'nios2_camera_sdram_lcd' (2 sources, 77 headers) in 0.45 sec: 2,477 declarations; 3,517 references; 0 unresolved inclusions; 2 syntax errors; 6 unresolved names (0.10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-18 21:33:55.096
+!MESSAGE Indexed 'nios2_camera_sdram_lcd_bsp' (79 sources, 125 headers) in 0.63 sec: 4,347 declarations; 5,640 references; 0 unresolved inclusions; 2 syntax errors; 14 unresolved names (0.14%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-18 21:45:24.569
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618752696", expected: "1618746689".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-18 21:45:24.572
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1618752696", expected: "1618746689".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:45:49.270
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618752696]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:45:51.627
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618752696 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:47:06.114
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:47:06.901
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1618752696]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-18 21:47:09.272
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1618752696 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-05-03 22:27:43.613 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 22:32:10.927
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1620051781]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 22:32:13.636
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1620051781 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 22:32:46.216
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 22:32:46.978
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1620051781]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 22:32:49.275
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1620051781 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-05-03 23:06:10.141 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 23:10:16.076
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x2001348 --id=0x0 --timestamp=1620054318 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 23:10:20.158
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x2001348 --id=0x0 --timestamp=1620054318]
+
+!ENTRY org.eclipse.ui 4 4 2021-05-03 23:10:29.363
+!MESSAGE Exception in org.eclipse.ui.internal.PageLayout.stackView: org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+
+!ENTRY org.eclipse.ui 4 4 2021-05-03 23:10:29.378
+!MESSAGE Exception in org.eclipse.ui.internal.PageLayout.stackView: org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.LayoutHelper.createView(LayoutHelper.java:162)
+	at org.eclipse.ui.internal.PageLayout.createView(PageLayout.java:554)
+	at org.eclipse.ui.internal.PageLayout.stackView(PageLayout.java:863)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.processView(PerspectiveExtensionReader.java:270)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.processExtension(PerspectiveExtensionReader.java:118)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.readElement(PerspectiveExtensionReader.java:355)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.extendLayout(PerspectiveExtensionReader.java:82)
+	at org.eclipse.ui.internal.Perspective.loadPredefinedPersp(Perspective.java:818)
+	at org.eclipse.ui.internal.Perspective.createPresentation(Perspective.java:270)
+	at org.eclipse.ui.internal.Perspective.<init>(Perspective.java:156)
+	at org.eclipse.ui.internal.tweaklets.Workbench3xImplementation.createPerspective(Workbench3xImplementation.java:55)
+	at org.eclipse.ui.internal.WorkbenchPage.createPerspective(WorkbenchPage.java:1748)
+	at org.eclipse.ui.internal.WorkbenchPage.busySetPerspective(WorkbenchPage.java:1108)
+	at org.eclipse.ui.internal.WorkbenchPage.access$16(WorkbenchPage.java:1099)
+	at org.eclipse.ui.internal.WorkbenchPage$19.run(WorkbenchPage.java:3814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3812)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.switchToPerspective(PerspectiveManager.java:316)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager$4.runInUIThread(PerspectiveManager.java:395)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SUBENTRY 1 org.eclipse.ui 4 0 2021-05-03 23:10:29.378
+!MESSAGE Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 23:10:39.142
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 23:10:40.093
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2001348 --id=0x0 --timestamp=1620054318]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-03 23:10:42.604
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2001348 --id=0x0 --timestamp=1620054318 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-05-07 21:16:42.198 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:18:10.582
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620392854]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:18:13.352
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620392854 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:21:44.191
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:21:44.925
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620392854]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:21:47.556
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620392854 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:25:46.379
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:25:47.129
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620392854]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:25:49.735
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620392854 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:26:13.128
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:26:14.378
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620392854]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:26:16.915
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620392854 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:38:17.664
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620392854]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:38:20.190
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620392854 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-05-07 21:41:49.339 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:43:23.566
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620394399]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 21:43:26.092
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620394399 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-05-07 22:41:24.207
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1620397514", expected: "1620394399".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-05-07 22:41:24.207
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1620397514", expected: "1620394399".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 22:41:51.138
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 22:41:53.725
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-05-07 23:13:29.620 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:13:50.333
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:13:52.880
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:18:25.085
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:18:27.698
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:24:41.621
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:24:44.092
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:34:20.263
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:34:22.823
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:42:11.753
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:42:12.503
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:42:14.994
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:48:26.098
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:48:26.879
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:48:29.509
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:49:32.069
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:49:32.819
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620397514]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:49:35.297
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620397514 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-05-07 23:56:14.974
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1620402735", expected: "1620397514".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-05-07 23:56:14.974
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1620402735", expected: "1620397514".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:57:26.819
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620402735]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-07 23:57:29.442
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620402735 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:00:40.659
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:00:41.377
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620402735]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:00:43.853
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620402735 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-05-08 00:09:19.793 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:12:52.249
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620403621]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:12:54.909
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620403621 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:13:24.782
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:13:25.532
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x2005248 --id=0x0 --timestamp=1620403621 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:13:29.680
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x2005248 --id=0x0 --timestamp=1620403621]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:16:06.623
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x2005248 --id=0x0 --timestamp=1620403621 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-08 00:16:10.612
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x2005248 --id=0x0 --timestamp=1620403621]
+!SESSION 2021-05-09 02:01:16.815 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-05-09 02:03:35.959
+!MESSAGE Indexed 'nios2_camera_sdram_lcd' (3 sources, 77 headers) in 0.95 sec: 2,506 declarations; 3,674 references; 0 unresolved inclusions; 2 syntax errors; 7 unresolved names (0.11%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:05:25.442
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620496833]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:05:27.984
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620496833 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:06:16.310
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:06:17.076
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620496833]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:06:19.479
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620496833 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:06:52.955
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:06:53.674
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620496833]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:06:56.099
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620496833 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:07:16.016
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:07:16.721
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620496833]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:07:19.089
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620496833 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:07:50.544
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1620496833]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-09 02:07:52.951
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1620496833 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+!SESSION 2021-05-22 19:58:43.240 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-22 20:02:14.085
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1621684465]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-22 20:02:16.545
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1621684465 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-22 21:55:15.541
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1621684465]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-22 21:55:17.950
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1621684465 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-23 11:10:12.190
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1621684465]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-23 11:10:14.776
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1621684465 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-23 11:12:17.612
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x2005248 --id=0x0 --timestamp=1621684465]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-05-23 11:12:20.010
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x2005248 --id=0x0 --timestamp=1621684465 /cygdrive/c/work/fpga/nios2_camera_sdram_lcd/prj_eclipse/nios2_camera_sdram_lcd/nios2_camera_sdram_lcd.elf]

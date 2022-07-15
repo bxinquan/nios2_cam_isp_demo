@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\work\\fpga\\nios2_camera_sdram_lcd\\prj_eclipse\\nios2_camera_sdram_lcd
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\work\\fpga\\nios2_camera_sdram_lcd\\prj_qsys\\nios2_camera_sdram_lcd.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\work\\fpga\\nios2_camera_sdram_lcd\\prj_eclipse\\nios2_camera_sdram_lcd_bsp

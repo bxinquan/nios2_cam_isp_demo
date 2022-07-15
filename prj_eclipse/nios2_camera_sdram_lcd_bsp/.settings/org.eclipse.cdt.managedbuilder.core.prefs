@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/CPATH/delimiter=;
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/CPATH/operation=replace
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/CPATH/value=C\:\\work\\QtAV\\ffmpeg-3.4.2-win64-dev\\include
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/append=true
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/appendContributed=true
+environment/buildEnvironmentLibrary/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/LIBRARY_PATH/operation=replace
+environment/buildEnvironmentLibrary/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/LIBRARY_PATH/value=C\:\\work\\QtAV\\ffmpeg-3.4.2-win64-dev\\lib
+environment/buildEnvironmentLibrary/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/append=true
+environment/buildEnvironmentLibrary/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1790428271/appendContributed=true

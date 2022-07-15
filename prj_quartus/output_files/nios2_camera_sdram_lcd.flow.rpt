@@ -1,0 +1,233 @@
+Flow report for nios2_camera_sdram_lcd
+Sat May 22 19:58:18 2021
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------+
+; Flow Summary                                                                   ;
++------------------------------------+-------------------------------------------+
+; Flow Status                        ; Successful - Sat May 22 19:58:18 2021     ;
+; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Full Version ;
+; Revision Name                      ; nios2_camera_sdram_lcd                    ;
+; Top-level Entity Name              ; nios2_camera_sdram_lcd_top                ;
+; Family                             ; Cyclone IV E                              ;
+; Device                             ; EP4CE6F17C8                               ;
+; Timing Models                      ; Final                                     ;
+; Total logic elements               ; 6,103 / 6,272 ( 97 % )                    ;
+;     Total combinational functions  ; 5,621 / 6,272 ( 90 % )                    ;
+;     Dedicated logic registers      ; 3,812 / 6,272 ( 61 % )                    ;
+; Total registers                    ; 3881                                      ;
+; Total pins                         ; 89 / 180 ( 49 % )                         ;
+; Total virtual pins                 ; 0                                         ;
+; Total memory bits                  ; 107,528 / 276,480 ( 39 % )                ;
+; Embedded Multiplier 9-bit elements ; 12 / 30 ( 40 % )                          ;
+; Total PLLs                         ; 1 / 2 ( 50 % )                            ;
++------------------------------------+-------------------------------------------+
+
+
++--------------------------------------------+
+; Flow Settings                              ;
++-------------------+------------------------+
+; Option            ; Setting                ;
++-------------------+------------------------+
+; Start date & time ; 05/22/2021 19:56:19    ;
+; Main task         ; Compilation            ;
+; Revision Name     ; nios2_camera_sdram_lcd ;
++-------------------+------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                               ;
++-------------------------------------+------------------------------------------------------------------------------------+------------------------+-------------------------------------------+----------------+
+; Assignment Name                     ; Value                                                                              ; Default Value          ; Entity Name                               ; Section Id     ;
++-------------------------------------+------------------------------------------------------------------------------------+------------------------+-------------------------------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 251053335595121.162168457810456                                                    ; --                     ; --                                        ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                                        ; --                     ; --                                        ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                                          ; <None>                 ; --                                        ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_avalon_sc_fifo                     ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_avalon_st_handshake_clock_crosser  ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_merlin_burst_adapter               ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_merlin_master_agent                ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_merlin_master_translator           ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_merlin_slave_agent                 ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_merlin_slave_translator            ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_merlin_width_adapter               ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; altera_reset_controller                   ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; --                                        ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router        ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router_001    ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router_002    ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux     ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux_001 ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux_002 ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_mux       ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_mux_001   ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_cpu                ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_id_router          ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_id_router_001      ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_id_router_002      ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_irq_mapper         ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_jtag_uart          ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_pio                ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_pll                ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_demux_001 ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_demux_002 ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_mux       ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_mux_001   ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_sdram              ; --             ;
+; IP_TOOL_ENV                         ; qsys                                                                               ; --                     ; nios2_camera_sdram_lcd_sysid              ; --             ;
+; IP_TOOL_NAME                        ; altera_avalon_sc_fifo                                                              ; --                     ; altera_avalon_sc_fifo                     ; --             ;
+; IP_TOOL_NAME                        ; altera_avalon_st_handshake_clock_crosser                                           ; --                     ; altera_avalon_st_handshake_clock_crosser  ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_burst_adapter                                                        ; --                     ; altera_merlin_burst_adapter               ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_master_agent                                                         ; --                     ; altera_merlin_master_agent                ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_master_translator                                                    ; --                     ; altera_merlin_master_translator           ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_slave_agent                                                          ; --                     ; altera_merlin_slave_agent                 ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_slave_translator                                                     ; --                     ; altera_merlin_slave_translator            ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_width_adapter                                                        ; --                     ; altera_merlin_width_adapter               ; --             ;
+; IP_TOOL_NAME                        ; altera_reset_controller                                                            ; --                     ; altera_reset_controller                   ; --             ;
+; IP_TOOL_NAME                        ; qsys                                                                               ; --                     ; --                                        ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router        ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router_001    ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router_002    ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                                        ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux     ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                                        ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux_001 ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                                        ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux_002 ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_multiplexer                                                          ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_mux       ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_multiplexer                                                          ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_mux_001   ; --             ;
+; IP_TOOL_NAME                        ; altera_nios2_qsys                                                                  ; --                     ; nios2_camera_sdram_lcd_cpu                ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                                               ; --                     ; nios2_camera_sdram_lcd_id_router          ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                                               ; --                     ; nios2_camera_sdram_lcd_id_router_001      ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                                               ; --                     ; nios2_camera_sdram_lcd_id_router_002      ; --             ;
+; IP_TOOL_NAME                        ; altera_irq_mapper                                                                  ; --                     ; nios2_camera_sdram_lcd_irq_mapper         ; --             ;
+; IP_TOOL_NAME                        ; altera_avalon_jtag_uart                                                            ; --                     ; nios2_camera_sdram_lcd_jtag_uart          ; --             ;
+; IP_TOOL_NAME                        ; altera_avalon_pio                                                                  ; --                     ; nios2_camera_sdram_lcd_pio                ; --             ;
+; IP_TOOL_NAME                        ; altpll                                                                             ; --                     ; nios2_camera_sdram_lcd_pll                ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                                        ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_demux_001 ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                                        ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_demux_002 ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_multiplexer                                                          ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_mux       ; --             ;
+; IP_TOOL_NAME                        ; altera_merlin_multiplexer                                                          ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_mux_001   ; --             ;
+; IP_TOOL_NAME                        ; altera_avalon_new_sdram_controller                                                 ; --                     ; nios2_camera_sdram_lcd_sdram              ; --             ;
+; IP_TOOL_NAME                        ; altera_avalon_sysid_qsys                                                           ; --                     ; nios2_camera_sdram_lcd_sysid              ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_avalon_sc_fifo                     ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_avalon_st_handshake_clock_crosser  ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_merlin_burst_adapter               ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_merlin_master_agent                ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_merlin_master_translator           ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_merlin_slave_agent                 ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_merlin_slave_translator            ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_merlin_width_adapter               ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; altera_reset_controller                   ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; --                                        ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router        ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router_001    ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_addr_router_002    ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux     ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux_001 ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_demux_002 ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_mux       ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_cmd_xbar_mux_001   ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_cpu                ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_id_router          ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_id_router_001      ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_id_router_002      ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_irq_mapper         ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_jtag_uart          ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_pio                ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_pll                ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_demux_001 ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_demux_002 ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_mux       ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_rsp_xbar_mux_001   ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_sdram              ; --             ;
+; IP_TOOL_VERSION                     ; 12.1                                                                               ; --                     ; nios2_camera_sdram_lcd_sysid              ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                 ; --                     ; --                                        ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                  ; --                     ; --                                        ; --             ;
+; MISC_FILE                           ; ../prj_qsys/nios2_camera_sdram_lcd/synthesis/../../nios2_camera_sdram_lcd.cmp      ; --                     ; --                                        ; --             ;
+; MISC_FILE                           ; ../prj_qsys/nios2_camera_sdram_lcd/synthesis/../../nios2_camera_sdram_lcd.qsys     ; --                     ; --                                        ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                                                  ; --                     ; --                                        ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                                                  ; --                     ; --                                        ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                                         ; --                     ; --                                        ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                                         ; --                     ; --                                        ; --             ;
+; PARTITION_COLOR                     ; 16764057                                                                           ; --                     ; nios2_camera_sdram_lcd_top                ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                              ; --                     ; nios2_camera_sdram_lcd_top                ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                             ; --                     ; nios2_camera_sdram_lcd_top                ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                                ; --                     ; --                                        ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                              ; --                     ; --                                        ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                       ; --                     ; --                                        ; --             ;
+; SLD_INFO                            ; QSYS_NAME nios2_camera_sdram_lcd HAS_SOPCINFO 1 GENERATION_ID 1621684465           ; --                     ; --                                        ; --             ;
+; SOPCINFO_FILE                       ; ../prj_qsys/nios2_camera_sdram_lcd/synthesis/../../nios2_camera_sdram_lcd.sopcinfo ; --                     ; --                                        ; --             ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                                                 ; --                     ; --                                        ; --             ;
+; TOP_LEVEL_ENTITY                    ; nios2_camera_sdram_lcd_top                                                         ; nios2_camera_sdram_lcd ; --                                        ; --             ;
++-------------------------------------+------------------------------------------------------------------------------------+------------------------+-------------------------------------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:33     ; 1.3                     ; 4819 MB             ; 00:00:33                           ;
+; Fitter                    ; 00:01:03     ; 2.0                     ; 5008 MB             ; 00:01:17                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4580 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 3.3                     ; 4752 MB             ; 00:00:09                           ;
+; EDA Netlist Writer        ; 00:00:07     ; 1.0                     ; 4639 MB             ; 00:00:07                           ;
+; Total                     ; 00:01:52     ; --                      ; --                  ; 00:02:07                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-7HE7I59  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-7HE7I59  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-7HE7I59  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-7HE7I59  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-7HE7I59  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off nios2_camera_sdram_lcd -c nios2_camera_sdram_lcd
+quartus_fit --read_settings_files=off --write_settings_files=off nios2_camera_sdram_lcd -c nios2_camera_sdram_lcd
+quartus_asm --read_settings_files=off --write_settings_files=off nios2_camera_sdram_lcd -c nios2_camera_sdram_lcd
+quartus_sta nios2_camera_sdram_lcd -c nios2_camera_sdram_lcd
+quartus_eda --read_settings_files=off --write_settings_files=off nios2_camera_sdram_lcd -c nios2_camera_sdram_lcd
+
+
+

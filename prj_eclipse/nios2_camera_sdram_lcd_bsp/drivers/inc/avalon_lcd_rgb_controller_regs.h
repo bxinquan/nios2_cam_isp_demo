@@ -1,0 +1,7 @@
+#ifndef __AVALON_LCD_RGB_CONTROLLER_REGS__
+#define __AVALON_LCD_RGB_CONTROLLER_REGS__
+
+#define LCD_REG_RESET     0
+#define LCD_REG_FB_ADDR   1
+
+#endif

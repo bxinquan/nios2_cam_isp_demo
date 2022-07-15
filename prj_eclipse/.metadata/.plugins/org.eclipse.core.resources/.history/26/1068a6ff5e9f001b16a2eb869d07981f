@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/CPATH/delimiter=;
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/CPATH/operation=replace
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/CPATH/value=C\:\\work\\QtAV\\ffmpeg-3.4.2-win64-dev\\include
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/append=true
+environment/buildEnvironmentInclude/preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.2137865158/appendContributed=true

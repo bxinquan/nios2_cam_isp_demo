@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 22 19:56:53 2021
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : nios2_camera_sdram_lcd
+Top-level Entity Name : nios2_camera_sdram_lcd_top
+Family : Cyclone IV E
+Total logic elements : 7,135
+    Total combinational functions : 5,606
+    Dedicated logic registers : 4,092
+Total registers : 4092
+Total pins : 89
+Total virtual pins : 0
+Total memory bits : 107,528
+Embedded Multiplier 9-bit elements : 12
+Total PLLs : 1

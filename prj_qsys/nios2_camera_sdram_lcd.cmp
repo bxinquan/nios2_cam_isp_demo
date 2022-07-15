@@ -1,0 +1,63 @@
+	component nios2_camera_sdram_lcd is
+		port (
+			clk_clk           : in    std_logic                     := 'X';             -- clk
+			cmos_xclk_clk     : out   std_logic;                                        -- clk
+			lcd_xclk_clk      : out   std_logic;                                        -- clk
+			sdram_clk_clk     : out   std_logic;                                        -- clk
+			sdram_addr        : out   std_logic_vector(12 downto 0);                    -- addr
+			sdram_ba          : out   std_logic_vector(1 downto 0);                     -- ba
+			sdram_cas_n       : out   std_logic;                                        -- cas_n
+			sdram_cke         : out   std_logic;                                        -- cke
+			sdram_cs_n        : out   std_logic;                                        -- cs_n
+			sdram_dq          : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
+			sdram_dqm         : out   std_logic_vector(1 downto 0);                     -- dqm
+			sdram_ras_n       : out   std_logic;                                        -- ras_n
+			sdram_we_n        : out   std_logic;                                        -- we_n
+			pio_export        : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- export
+			lcd_pclk          : in    std_logic                     := 'X';             -- pclk
+			lcd_lcd_dclk      : out   std_logic;                                        -- lcd_dclk
+			lcd_lcd_de        : out   std_logic;                                        -- lcd_de
+			lcd_lcd_hs        : out   std_logic;                                        -- lcd_hs
+			lcd_lcd_vs        : out   std_logic;                                        -- lcd_vs
+			lcd_lcd_r         : out   std_logic_vector(7 downto 0);                     -- lcd_r
+			lcd_lcd_g         : out   std_logic_vector(7 downto 0);                     -- lcd_g
+			lcd_lcd_b         : out   std_logic_vector(7 downto 0);                     -- lcd_b
+			isp_pclk          : in    std_logic                     := 'X';             -- pclk
+			isp_rst_n         : in    std_logic                     := 'X';             -- rst_n
+			isp_in_href       : in    std_logic                     := 'X';             -- in_href
+			isp_in_vsync      : in    std_logic                     := 'X';             -- in_vsync
+			isp_in_raw        : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- in_raw
+			isp_out_href      : out   std_logic;                                        -- out_href
+			isp_out_vsync     : out   std_logic;                                        -- out_vsync
+			isp_out_y         : out   std_logic_vector(7 downto 0);                     -- out_y
+			isp_out_u         : out   std_logic_vector(7 downto 0);                     -- out_u
+			isp_out_v         : out   std_logic_vector(7 downto 0);                     -- out_v
+			vip_pclk          : in    std_logic                     := 'X';             -- pclk
+			vip_rst_n         : in    std_logic                     := 'X';             -- rst_n
+			vip_in_href       : in    std_logic                     := 'X';             -- in_href
+			vip_in_vsync      : in    std_logic                     := 'X';             -- in_vsync
+			vip_in_y          : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- in_y
+			vip_in_u          : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- in_u
+			vip_in_v          : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- in_v
+			vip_out_pclk      : out   std_logic;                                        -- out_pclk
+			vip_out_href      : out   std_logic;                                        -- out_href
+			vip_out_vsync     : out   std_logic;                                        -- out_vsync
+			vip_out_r         : out   std_logic_vector(7 downto 0);                     -- out_r
+			vip_out_g         : out   std_logic_vector(7 downto 0);                     -- out_g
+			vip_out_b         : out   std_logic_vector(7 downto 0);                     -- out_b
+			dvp_wch_pclk      : in    std_logic                     := 'X';             -- pclk
+			dvp_wch_href      : in    std_logic                     := 'X';             -- href
+			dvp_wch_vsync     : in    std_logic                     := 'X';             -- vsync
+			dvp_wch_raw       : in    std_logic_vector(15 downto 0) := (others => 'X'); -- raw
+			dvp_vi_cmos_xclk  : in    std_logic                     := 'X';             -- cmos_xclk
+			dvp_vi_cmos_pclk  : in    std_logic                     := 'X';             -- cmos_pclk
+			dvp_vi_cmos_href  : in    std_logic                     := 'X';             -- cmos_href
+			dvp_vi_cmos_vsync : in    std_logic                     := 'X';             -- cmos_vsync
+			dvp_vi_cmos_db    : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- cmos_db
+			dvp_vi_out_pclk   : out   std_logic;                                        -- out_pclk
+			dvp_vi_out_href   : out   std_logic;                                        -- out_href
+			dvp_vi_out_vsync  : out   std_logic;                                        -- out_vsync
+			dvp_vi_out_raw    : out   std_logic_vector(7 downto 0)                      -- out_raw
+		);
+	end component nios2_camera_sdram_lcd;
+
